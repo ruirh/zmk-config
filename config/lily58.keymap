@@ -15,7 +15,7 @@
 };
 
 &led_strip {
-    chain-length = <58>;
+    chain-length = <66>;
 };
 / {
     keymap {
