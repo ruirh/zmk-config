@@ -84,7 +84,7 @@
                                               &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RGB_BRI RGB_BRD>;
+            sensor-bindings = <&inc_dec_kp UP DOWN  &inc_dec_kp UP DOWN>;
         };
 
         raise_layer {
@@ -103,7 +103,7 @@
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RGB_HUI RGB_HUD>;
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN  &inc_dec_kp PG_UP PG_DN>;
         };
 
         extra_1 {
